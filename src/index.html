@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <!-- overlay -->
+  <div class="flex  items-center justify-center h-screen">
+    <!--flex container holding all the itmes in the page -->
+    <div class="flex flex-col space-y-3 bg-VerylightGray h-full w-full rounded-md shadow-lg">
+      <!-- first flex item -->
+      <div class="flex md:h-40 justify-center px-4 py-3">
+        <div class="flex flex-col space-y-2 text-center md:w-1/3">
+          <div class="text-sm md:text-2xl md:font-extralight text-GrayishBlue">Reliable, efficient delivery</div>
+          <div class=" text-sm  md:text-2xl text-VeryDarkBlue font-semibold">Powered by Technology</div>
+          <div class="text-xs text-GrayishBlue md:text-sm">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</div>
+        </div>
+      </div>
+      <!-- second flex item -->
+      <div class="flex flex-col space-y-3 items-center w-full mx-auto md:w-[75%] md:pb-7 md:h-3/4 md:flex-row md:space-x-6">
+        <!-- first card -->
+        <div class="flex flex-col space-y-2 p-3 relative h-40 border-t-[3px] border-t-Cyan w-5/6 items-start rounded-md shadow-lg bg-white md:w-60 md:h-48">
+          <h1 class="text-lg text-VeryDarkBlue font-semibold">Supervisor</h1>
+          <p class="text-xs text-GrayishBlue">Monitors activity to identify project roadblocks</p>
+          <img class="h-11 w-11 absolute bottom-3 right-3" src="../images/icon-supervisor.svg" alt="">
+        </div>
+        <!-- second and third cards are in a flex container -->
+        <div class="flex flex-col space-y-3 w-full items-center md:items-start md:w-60">
+          <!-- second card -->
+          <div class="flex flex-col space-y-2 p-3 relative h-40 border-t-[3px] border-t-Red w-5/6 items-start rounded-md shadow-lg bg-white md:w-60 md:h-48">
+            <h1 class="text-lg text-VeryDarkBlue font-semibold">Team builder</h1>
+            <p class="text-xs text-GrayishBlue">Scans our talent network to create the optimal team for your project</p>
+            <img class="h-11 w-11 absolute bottom-3 right-3" src="../images/icon-team-builder.svg" alt="">
+          </div>
+          <!-- third card -->
+          <div class="flex flex-col space-y-2 p-3 relative h-40 border-t-[3px] border-t-Orange w-5/6 items-start rounded-md shadow-lg bg-white md:w-60 md:h-48">
+            <h1 class="text-lg text-VeryDarkBlue font-semibold">Karma</h1>
+            <p class="text-xs text-GrayishBlue">Regularly evaluates our talent to ensure quality</p>
+            <img class="h-11 w-11 absolute bottom-3 right-3" src="../images/icon-karma.svg" alt="">
+          </div>
+        </div>
+        <div class="flex flex-col space-y-2 p-3 relative h-40 border-t-[3px] border-t-Orange w-5/6 items-start rounded-md shadow-lg bg-white md:w-60 md:h-48">
+          <h1 class="text-lg text-VeryDarkBlue font-semibold">Calculator</h1>
+          <p class="text-xs text-GrayishBlue">Uses data from past projects to provide better delivery estimates</p>
+          <img class="h-11 w-11 absolute bottom-3 right-3" src="../images/icon-calculator.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
